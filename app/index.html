@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>todo</title>
+ 
+    <!-- <link rel="apple-touch-icon" href="apple-touch-icon.png"> -->
+    <!-- Place favicon.ico in the root directory -->
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+   
+    <!-- endbuild -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  </head>
+  <body>
+    <!--[if IE]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <!-- Starting MyTODO -->
+    <!-- --------------------------------------------- -->
+
+    <h1>todos </h1>
+    <section>
+     
+      <div class="header">
+        <input type="checkbox" id="selectAll-btn">
+        <!-- <button id="selectAll-btn" >
+          add
+        </button> -->
+        <input type="text" id="add-input" >
+      </div>
+      <ul id="menu"></ul>
+      <div class="btn-grp"> 
+        <span id="no-itm">0 Items</span>
+        <div>
+          <a href="#"><button id="all-btn" >All</button></a>
+          <a href="#/active"> <button id="active-btn" >Active</button></a>
+          <a href="#/completed"> <button id="completed-btn" >completed</button></a>
+        </div>
+        <button id="btn-clear">Clear Completed</button>
+      </div>
+       
+
+    </section>
+
+    <!-- build:js scripts/vendor.js -->
+    <!-- endbuild -->
+    <!-- build:js scripts/main.js -->
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
+  </body>
+</html>
